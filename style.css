@@ -1,0 +1,28 @@
+h1 {
+  font-size: 3em;
+}
+
+::placeholder {
+  text-align: center;
+  font-family: Rock Salt;
+}
+body {
+  text-align: center;
+  background-image: url(notepad.png);
+  background-size: 100%;
+  font-family: Rock Salt;
+}
+.toDoItem {
+  font-size: 1.3em;
+}
+#toDoInput {
+  width: 450px;
+  padding: 7px;
+  margin: 6px;
+  text-align: center;
+}
+
+button {
+  padding: 6px;
+  width: 38px;
+}
