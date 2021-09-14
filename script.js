@@ -3,5 +3,7 @@ function addItem() {
     let listItem = document.createElement("toDoItem");
     let listInput = document.getElementById("toDoInput");
     listItem.appendChild(document.createTextNode(listItem.value));
-    // console.log("hello");
+    console.log("hello");
 }
+
+addToDo.addEventListener('click', addItem);
