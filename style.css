@@ -12,9 +12,17 @@ body {
   background-size: 100%;
   font-family: Rock Salt;
 }
-.toDoItem {
+#toDoItem {
   font-size: 1.3em;
+  text-align: left;
 }
+
+#toDoList {
+  display: inline-block;
+  text-align: center;
+  list-style-type: disc;
+}
+
 #toDoInput {
   width: 450px;
   padding: 7px;
@@ -23,8 +31,14 @@ body {
   border-radius: 5px;
 }
 
-button {
+#addToDo {
   padding: 6px;
   width: 38px;
+  border-radius: 5px;
+}
+
+#deleteButton {
+  padding: 12px;
+  width: 32px;
   border-radius: 5px;
 }
