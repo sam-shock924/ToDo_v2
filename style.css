@@ -37,8 +37,9 @@ body {
   border-radius: 5px;
 }
 
-#deleteButton {
-  padding: 12px;
-  width: 32px;
-  border-radius: 5px;
+.deleteButton {
+  margin: 1em;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
 }
